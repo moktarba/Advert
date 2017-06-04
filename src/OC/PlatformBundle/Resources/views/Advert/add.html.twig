@@ -1,0 +1,10 @@
+{% extends 'OCPlatformBundle::layout.html.twig' %}
+
+   {% block title %} {{ parent()  }} - Index {% endblock %}
+       {% block body %}
+
+           	<h3>{{advert.title}}</h3>
+           		<p>{{advert.content}}</p> <span>{{advert.author}}</span>
+
+       {% endblock %}
+    {% block stylesheets %}{% endblock %}

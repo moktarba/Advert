@@ -1,0 +1,5 @@
+oc_platform:
+    resource: "@OCPlatformBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
